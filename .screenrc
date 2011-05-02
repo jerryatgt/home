@@ -1,0 +1,8 @@
+hardstatus alwayslastline "%{km}%H%{mk} %{yb}%-Lw%{= yb}%50>%n%f* %t%{-}%+Lw%< %{gk}%-19=%C%a %D,%d %M "
+term xterm-color
+bindkey -k k7 prev
+bindkey -k k8 next
+startup_message off
+
+screen -t screen 0 bash
+shelltitle '$ |bash'
